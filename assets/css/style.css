@@ -1,0 +1,512 @@
+@font-face {
+    font-family: 'IBMPlexSansArabicRegular';
+    src: url('../fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansArabicMedium';
+    src: url('../fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+  
+body {
+    font-family: 'IBMPlexSansArabicRegular';
+    font-size: 14px;
+}
+
+.text-primary {
+    color: #5153a6 !important;
+}
+
+.text-muted {
+    color: #555 !important;
+}
+
+.btn-primary {
+    background: linear-gradient(to left, rgba(111, 113, 205, 0.95) 0%, rgba(70, 72, 159, 0.95) 90%);
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    border: 1px solid transparent !important;
+    border-radius: 100px;
+}
+
+.btn-primary:hover {
+    color: #5153a6 !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    border: 1px dotted #5153a6 !important;
+    box-shadow: 0px 6px 30px 0px rgba(89, 91, 181, 0.1) !important;
+    transition: all .2s ease-in-out !important;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+/* Header section Styles */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    width:150px;
+    margin-right: 10px;
+}
+.nav-link {
+    color: #444;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.nav-link.active {
+    font-weight: 500;
+}
+.btn-start-now {
+    font-size: 14px;
+    border-radius: 100px;
+    margin: 30px 0;
+    padding: 7px 30px;
+}
+.shape-wow {
+    height: 1px;
+    margin: 0 auto 30px;
+    position: relative;
+    width: 60px;
+    background-color: #5153a6;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    padding: 60px 0;
+}
+.hero-section h2 {
+    font-weight: 500;
+    font-size: 32px;
+}
+.hero-section p {
+    font-size: 16px;
+}
+.hero-section .btn-start-now {
+    font-weight: 500;
+    padding: 12px 50px;
+    border-radius: 25px;
+    background-color: #5e5ce6;
+    border: none;
+    color: white;
+    box-shadow: 0px 8px 15px rgba(94, 92, 230, 0.2);
+    margin: 0;
+}
+
+/* Shared Styles for All Sections */
+.section {
+    padding: 60px 0;
+}
+
+.section h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0 !important;
+}
+
+.section a {
+    font-weight: normal;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.section a i {
+    font-weight: normal;
+    margin-right: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.section a:hover {
+    color: #2B2C41 !important;
+}
+
+.section a:hover i {
+    transform: translateX(-10px);
+}
+
+/* Features Section */
+.features-section h3 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Payment Section */
+.payment-section {
+    background-color: #f8f9fa;
+}
+
+/* Partners Services Section */
+.partners-services-section {
+    background-color: #f8f9fa;
+}
+
+/* Example store Section Styles */
+.examples-of-stores-section {
+    padding: 60px 0;
+}
+
+.examples-of-stores-section h3 {
+    font-family: 'IBMPlexSansArabicMedium';
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    margin: 10px 0;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .075), 0px -3px 8px rgba(0, 0, 0, .075) !important;
+}
+
+.card-img-top {
+    margin-bottom: 15px;
+}
+
+.swiper_controls {
+    position: relative;
+    margin-top: 60px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    margin-top: -250px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4e529f !important;
+    color: #ffff !important;
+    font-size: 28px !important;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 14px;
+}
+
+.swiper.example-store .rounded-circle {
+    border-radius: 100%;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    transition: all .4s ease;
+    background: transparent;
+    line-height: 52px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #dcddee;
+    margin: 15px 5px !important;
+    font-size: 22px;
+    padding-left: 7px;
+}
+
+.swiper.example-store .card-title {
+    color: rgb(171, 172, 174);
+    font-size: 16px;
+}
+
+/* Pricing Section Styles */
+.pricing-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.pricing-section h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.pricing-section li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #343a44;
+    padding: 8px 0;
+}
+
+.pricing-section .card {
+    padding: 60px 0 !important;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-section .card h5 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.pricing-section .card h6 {
+    font-size: 22px;
+    color: #5153a6 !important;
+    font-weight: 600;
+}
+
+.pricing-section .card h6 span.text-decoration-line-through{
+    margin-right: 10px;
+}
+
+.pricing-section .card h6 span.small{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.pricing-section .card p {
+    font-size: 14px;
+    padding: 0 0 10px 0;
+    color: #5153a6 !important;
+}
+
+.pricing-section .card p.bold {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.pricing-section .card a {
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 100px;
+    padding: 10px 65px;
+}
+
+.pricing-section .card a i {
+    vertical-align: middle;
+}
+
+.pricing-section .active-price {
+    background: linear-gradient(to left, rgba(111, 113, 205, 0.95) 0%, rgba(70, 72, 159, 0.95) 90%) !important;
+    box-shadow: 0px 6px 30px 0px rgba(89, 91, 181, 0.1);
+    color: #fff;
+}
+
+.pricing-section .active-price .shape-wow {
+    background-color: #fff;
+}
+
+.pricing-section .active-price li {
+    color: #fff;
+}
+
+.pricing-section .card.active-price h6 {
+    color: #fff !important;
+}
+
+.pricing-section .card.active-price p {
+    color: #fff !important;
+}
+
+.pricing-section .card.active-price .form-check-input:checked {
+    background-color: #4d4ccf;
+    border-color: #4d4ccf;
+}
+
+.enterprise-section .card {
+    padding: 30px 40px !important;
+}
+
+.enterprise-section h5 {
+    font-size: 32px;
+    font-family: 'IBMPlexSansArabicMedium';
+    font-weight: 400;
+}
+
+.enterprise-section p.text-black {
+    font-size: 16px !important;
+    padding: 5px 0 !important;
+    margin-bottom: 0 !important;
+    color: #343a44 !important;
+}
+
+.compare-section .btn {
+    margin: 15px 0 0 0;
+    padding: 12px 50px;
+}
+
+/* Style for the toggle */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px; /* Increase the width */
+    height: 28px; /* Increase the height */
+    margin: 0 10px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 21px;
+    width: 21px;
+    left: 4px;
+    bottom: 4px;
+    background: linear-gradient(to left, rgba(29, 196, 154, 0.95) 0%, rgba(29, 196, 154, 0.95) 90%);
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #fff;
+}
+
+input:checked + .slider:before {
+    transform: translateX(32px); 
+}
+
+
+/* Merchant app Section Styles */
+.merchant-app-section {
+    padding: 60px 0;
+}
+
+.merchant-app-section h4 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.merchant-app-section p {
+    font-size: 16px;
+}
+
+.merchant-app-section img {
+    border-radius: 10px;
+}
+
+.merchant-app-section .apps-provider img {
+    width: 170px;
+}
+
+/* CTA Section Styles */
+.cta-section {
+    background-color: rgba(111, 113, 205, 0.92);
+    padding: 100px 0 !important;
+}
+
+.cta-section h2 {
+    font-weight: 500; 
+    font-size: 1.8rem;
+}
+
+.cta-section .btn-light {
+    border-radius: 100px;
+    margin: 15px 0 0 0;
+    padding: 10px 60px;
+    background: #fff;
+    color: #5153a6;
+    font-size: 14px;
+}
+
+.cta-section .btn-light:hover {
+    border: 1px dotted #5153a6 !important;
+    box-shadow: 0px 6px 30px 0px rgba(89, 91, 181, 0.1);
+}
+
+/* Footer Section Styles */
+.footer-section .container {
+    padding: 50px 0 !important;
+}
+
+.footer-section h6 {
+    font-weight: 500;
+    padding: 10px 0;
+    color: #333a45 !important;
+    font-size: 1.25rem;
+}
+
+.footer-section .footer-nav li {
+    margin: 10px 0;
+}
+
+.footer-section a {
+    color: #46489f;
+    text-decoration: none;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section .text-muted {
+    color: #dcdde1 !important;
+}
+
+.footer-section .bi {
+    font-size: 1.2rem;
+}
+
+.footer-section .fs-4 {
+    font-size: 1.5rem;
+}
+
+.footer-section .cr-vat p {
+    color: #abacae;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.footer-section .footer-bottom {
+    font-size: 16px;
+    background: linear-gradient(to left, rgba(111, 113, 205, 0.95) 0%, rgba(70, 72, 159, 0.95) 90%);
+    margin: 0;
+    padding: 10px 10px 20px !important;
+    color: #fff !important;
+}
+
+.footer-section .footer-bottom p {
+    margin-bottom: 0px !important;
+}
+
+#side-menu {
+    text-align: left;
+}
+
+#side-menu .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 25px;
+    line-height: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-collapse {
+        display: none;
+    }
+    .footer-section .container {
+        padding-left: 20px !important;
+    }
+}
