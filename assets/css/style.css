@@ -19,6 +19,7 @@ html, body {
 body {
     font-family: 'IBMPlexSansArabicRegular';
     font-size: 14px;
+    direction: LTR;
 }
 
 .text-primary {
@@ -115,7 +116,7 @@ body {
 .section p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 0 !important;
+    margin-bottom: 10px !important;
 }
 
 .section a {

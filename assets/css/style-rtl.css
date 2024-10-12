@@ -1,0 +1,64 @@
+body {
+    direction: RTL;
+}
+
+.ms-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.nav-link {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.text-start {
+    text-align: right !important;
+}
+
+.fa-angle-right:before {
+    content: "\f104" !important;
+}
+
+.section a i {
+    margin-left: 0;
+    margin-right: 0px !important;
+}
+
+.section a:hover i {
+    transform: translateX(-15px) !important;
+}
+
+.list-unstyled {
+    padding-right: 0 !important;
+}
+
+.pricing-section .card h6 span.text-decoration-line-through {
+    margin-left: 10px;
+}
+
+.enterprise-section .text-md-end {
+    text-align: left !important;
+}
+
+.me-3 {
+    margin-right: 0px !important;
+    margin-left: 1rem !important;
+}
+
+.cr-vat-container img {
+    margin-right: 0px !important;
+    margin-left: 15px !important;
+}
+
+.swiper.example-store .rounded-circle {
+    padding-left: 0 !important;
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-section .container {
+        padding-left: 0px !important;
+        padding-right: 20px !important;
+    }
+}
